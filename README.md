@@ -11,9 +11,9 @@ I need an environment to setup fastapi and scraping library
 python -m venv .
 
 pip install fastapi requests beautifulSoup4
-
 ```
 
 2. Define my model based on the model described in the assignment requirements. Nothing to change there, a straight forward Product model.
   
-3. Create a basic blueprint (class) for what my crawler's going to accept.
+3. Create a basic blueprint (class) for what my crawler's going to accept! 
+>>>> Ran Into a challenge while crawling *the title contains partial text only to view it full we'll have to open the Url in the H2 reference) which is for now out of scope.
