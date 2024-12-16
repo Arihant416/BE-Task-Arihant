@@ -55,9 +55,10 @@ class Crawler:
                     img_src = self.save_image(img_url, title)
                 else:
                     img_src = IMAGE_SRC_NOT_FOUND
+                print(title, price, img_src)
                 if title and price and img_src != IMAGE_SRC_NOT_FOUND:
                     self.product_scraped += 1
-                break
+            print("Count -> ", self.product_scraped)
         except Exception as e:
             print(f"Exception {e} occurred while parsing")
         
@@ -95,6 +96,7 @@ class Crawler:
                 file_path = os.path.join(directory, product_title+".jpg")
             with open(file=file_path, mode='wb') as f:
                 f.write(resp.content)
+            return file_path
         except Exception as e:
             print(f"Exception occurred while saving photo of {product_title}", e)
         return IMAGE_SRC_NOT_FOUND
