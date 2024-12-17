@@ -24,7 +24,7 @@ def scrape_products(request: Request):
     try:
         crawler = Crawler(page_limit=request.page_limit, proxy=request.proxy)
         crawler.crawl()
-        update_db(file_name="data.json", crawler=crawler)
+        update_db(file_name="data.json", products=crawler.products)
         notify(crawler)
         return JSONResponse(content={"message": f"Scraped {crawler.products_scraped} products", "status": OK}, status_code=200)
     except Exception as e:

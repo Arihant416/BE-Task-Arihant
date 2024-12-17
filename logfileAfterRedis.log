@@ -1,0 +1,421 @@
+2024-12-17 16:04:14,261 - DB - INFO - Creating new redis connection
+2024-12-17 16:04:18,488 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 16:04:18,488 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 16:04:18,488 - CRAWLER - INFO - Initialising Crawling with page_limit : 1
+2024-12-17 16:04:18,488 - CRAWLER - INFO - Hitting page:1, https://dentalstall.com/shop/page/1
+2024-12-17 16:04:18,785 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.052898
+2024-12-17 16:04:19,005 - CRAWLER - INFO - Price changed, caching new price 1 x GDC Extraction Forceps Lower Molars - 86 Ergonomic (FX86E), 850.00
+2024-12-17 16:04:19,048 - CRAWLER - INFO - Price changed, caching new price 3A MEDES Bleaching And Night Guard Sheets, 1380.00
+2024-12-17 16:04:19,091 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Easy Bond Self-Etch Adhesive, 2365.00
+2024-12-17 16:04:19,135 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Adper Scotchbond Multi-Purpose Plus, 1195.00
+2024-12-17 16:04:19,177 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Single Bond Universal Adhesive, 2590.00
+2024-12-17 16:04:19,228 - CRAWLER - INFO - Price changed, caching new price 3m Espe Clinpro Sealant - Refills, 1995.00
+2024-12-17 16:04:19,271 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Clinpro Tooth Creme, 500.00
+2024-12-17 16:04:19,315 - CRAWLER - INFO - Price changed, caching new price 3M Espe Composite Syringe Organiser, 995.00
+2024-12-17 16:04:19,354 - CRAWLER - INFO - Price changed, caching new price 3m Espe Elipar Deepcure Led - Curing Light, 54600.00
+2024-12-17 16:04:19,400 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Express XT VPS Impression Material - Refills, 2860.00
+2024-12-17 16:04:19,446 - CRAWLER - INFO - Price changed, caching new price 3m Espe Filtek Bulk Fill Composite Syringe 4gm, 4495.00
+2024-12-17 16:04:19,486 - CRAWLER - INFO - Price changed, caching new price 3M Espe Filtek Supreme Flowable Restorative, 1280.00
+2024-12-17 16:04:19,528 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Filtek Z250XT Nanohybrid Restrorative kit (5 syringe kit), 1280.00
+2024-12-17 16:04:19,569 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Impregum Soft - Refills, 4495.00
+2024-12-17 16:04:19,613 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Imprint Bite Registration Material (Vps), 7790.00
+2024-12-17 16:04:19,653 - CRAWLER - INFO - Price changed, caching new price 3m Espe Ketac Universal Glass Ionomer Restorative, 3195.00
+2024-12-17 16:04:19,695 - CRAWLER - INFO - Price changed, caching new price 3M Espe mixing tips (BLUE) Pack of 8, 3255.00
+2024-12-17 16:04:19,736 - CRAWLER - INFO - Price changed, caching new price 3m Espe Monophase Polyether Impression Material, 5143.00
+2024-12-17 16:04:19,779 - CRAWLER - INFO - Price changed, caching new price 3m Espe P-60 Micro Hybrid Posterior Syringe, 1770.00
+2024-12-17 16:04:19,822 - CRAWLER - INFO - Price changed, caching new price 3m Espe Pediatric Strip Crown Forms, 1230.00
+2024-12-17 16:04:19,868 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Pedodontic Strip Crown Kit, 20500.00
+2024-12-17 16:04:19,907 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Ceramic Primer, 1640.00
+2024-12-17 16:04:19,949 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Luting 2 Refill Packs, 4580.00
+2024-12-17 16:04:19,990 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Veneer Cement, 2450.00
+2024-12-17 16:04:19,991 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 16:08:24,453 - DB - INFO - Creating new redis connection
+2024-12-17 16:08:29,213 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 16:08:29,214 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 16:08:29,214 - CRAWLER - INFO - Initialising Crawling with page_limit : 1
+2024-12-17 16:08:29,214 - CRAWLER - INFO - Hitting page:1, https://dentalstall.com/shop/page/1
+2024-12-17 16:08:29,506 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.055105
+2024-12-17 16:08:29,686 - CRAWLER - INFO - Price changed, caching new price 1 x GDC Extraction Forceps Lower Molars - 86 Ergonomic (FX86E), 850.00
+2024-12-17 16:08:29,741 - CRAWLER - INFO - Price changed, caching new price 3A MEDES Bleaching And Night Guard Sheets, 1380.00
+2024-12-17 16:08:29,793 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Easy Bond Self-Etch Adhesive, 2365.00
+2024-12-17 16:08:29,844 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Adper Scotchbond Multi-Purpose Plus, 1195.00
+2024-12-17 16:08:29,897 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Single Bond Universal Adhesive, 2590.00
+2024-12-17 16:08:29,946 - CRAWLER - INFO - Price changed, caching new price 3m Espe Clinpro Sealant - Refills, 1995.00
+2024-12-17 16:08:29,997 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Clinpro Tooth Creme, 500.00
+2024-12-17 16:08:30,051 - CRAWLER - INFO - Price changed, caching new price 3M Espe Composite Syringe Organiser, 995.00
+2024-12-17 16:08:30,105 - CRAWLER - INFO - Price changed, caching new price 3m Espe Elipar Deepcure Led - Curing Light, 54600.00
+2024-12-17 16:08:30,158 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Express XT VPS Impression Material - Refills, 2860.00
+2024-12-17 16:08:30,225 - CRAWLER - INFO - Price changed, caching new price 3m Espe Filtek Bulk Fill Composite Syringe 4gm, 4495.00
+2024-12-17 16:08:30,277 - CRAWLER - INFO - Price changed, caching new price 3M Espe Filtek Supreme Flowable Restorative, 1280.00
+2024-12-17 16:08:30,326 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Filtek Z250XT Nanohybrid Restrorative kit (5 syringe kit), 1280.00
+2024-12-17 16:08:30,378 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Impregum Soft - Refills, 4495.00
+2024-12-17 16:08:30,429 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Imprint Bite Registration Material (Vps), 7790.00
+2024-12-17 16:08:30,481 - CRAWLER - INFO - Price changed, caching new price 3m Espe Ketac Universal Glass Ionomer Restorative, 3195.00
+2024-12-17 16:08:30,533 - CRAWLER - INFO - Price changed, caching new price 3M Espe mixing tips (BLUE) Pack of 8, 3255.00
+2024-12-17 16:08:30,588 - CRAWLER - INFO - Price changed, caching new price 3m Espe Monophase Polyether Impression Material, 5143.00
+2024-12-17 16:08:30,641 - CRAWLER - INFO - Price changed, caching new price 3m Espe P-60 Micro Hybrid Posterior Syringe, 1770.00
+2024-12-17 16:08:30,696 - CRAWLER - INFO - Price changed, caching new price 3m Espe Pediatric Strip Crown Forms, 1230.00
+2024-12-17 16:08:30,751 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Pedodontic Strip Crown Kit, 20500.00
+2024-12-17 16:08:30,802 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Ceramic Primer, 1640.00
+2024-12-17 16:08:30,855 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Luting 2 Refill Packs, 4580.00
+2024-12-17 16:08:30,907 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Veneer Cement, 2450.00
+2024-12-17 16:08:30,908 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 16:08:30,909 - DB - INFO - 0 items saved
+2024-12-17 16:08:30,910 - NOTIFIER - DEBUG - Total No of products scraped -> 24
+2024-12-17 16:11:03,094 - DB - INFO - Creating new redis connection
+2024-12-17 16:11:06,636 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 16:11:06,636 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 16:11:06,636 - CRAWLER - INFO - Initialising Crawling with page_limit : 1
+2024-12-17 16:11:06,637 - CRAWLER - INFO - Hitting page:1, https://dentalstall.com/shop/page/1
+2024-12-17 16:11:06,929 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.047287
+2024-12-17 16:11:07,101 - CRAWLER - INFO - Price changed, caching new price 1 x GDC Extraction Forceps Lower Molars - 86 Ergonomic (FX86E), 850.00
+2024-12-17 16:11:07,140 - CRAWLER - INFO - Price changed, caching new price 3A MEDES Bleaching And Night Guard Sheets, 1380.00
+2024-12-17 16:11:07,180 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Easy Bond Self-Etch Adhesive, 2365.00
+2024-12-17 16:11:07,219 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Adper Scotchbond Multi-Purpose Plus, 1195.00
+2024-12-17 16:11:07,259 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Single Bond Universal Adhesive, 2590.00
+2024-12-17 16:11:07,298 - CRAWLER - INFO - Price changed, caching new price 3m Espe Clinpro Sealant - Refills, 1995.00
+2024-12-17 16:11:07,337 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Clinpro Tooth Creme, 500.00
+2024-12-17 16:11:07,380 - CRAWLER - INFO - Price changed, caching new price 3M Espe Composite Syringe Organiser, 995.00
+2024-12-17 16:11:07,432 - CRAWLER - INFO - Price changed, caching new price 3m Espe Elipar Deepcure Led - Curing Light, 54600.00
+2024-12-17 16:11:07,479 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Express XT VPS Impression Material - Refills, 2860.00
+2024-12-17 16:11:07,524 - CRAWLER - INFO - Price changed, caching new price 3m Espe Filtek Bulk Fill Composite Syringe 4gm, 4495.00
+2024-12-17 16:11:07,563 - CRAWLER - INFO - Price changed, caching new price 3M Espe Filtek Supreme Flowable Restorative, 1280.00
+2024-12-17 16:11:07,602 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Filtek Z250XT Nanohybrid Restrorative kit (5 syringe kit), 1280.00
+2024-12-17 16:11:07,645 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Impregum Soft - Refills, 4495.00
+2024-12-17 16:11:07,689 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Imprint Bite Registration Material (Vps), 7790.00
+2024-12-17 16:11:07,728 - CRAWLER - INFO - Price changed, caching new price 3m Espe Ketac Universal Glass Ionomer Restorative, 3195.00
+2024-12-17 16:11:07,766 - CRAWLER - INFO - Price changed, caching new price 3M Espe mixing tips (BLUE) Pack of 8, 3255.00
+2024-12-17 16:11:07,808 - CRAWLER - INFO - Price changed, caching new price 3m Espe Monophase Polyether Impression Material, 5143.00
+2024-12-17 16:11:07,847 - CRAWLER - INFO - Price changed, caching new price 3m Espe P-60 Micro Hybrid Posterior Syringe, 1770.00
+2024-12-17 16:11:07,886 - CRAWLER - INFO - Price changed, caching new price 3m Espe Pediatric Strip Crown Forms, 1230.00
+2024-12-17 16:11:07,930 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Pedodontic Strip Crown Kit, 20500.00
+2024-12-17 16:11:07,968 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Ceramic Primer, 1640.00
+2024-12-17 16:11:08,011 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Luting 2 Refill Packs, 4580.00
+2024-12-17 16:11:08,057 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Veneer Cement, 2450.00
+2024-12-17 16:11:08,058 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 16:11:08,062 - DB - INFO - 0 items saved
+2024-12-17 16:11:08,062 - NOTIFIER - DEBUG - Total No of products scraped -> 24
+2024-12-17 16:16:10,815 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 16:16:10,815 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 16:16:10,815 - CRAWLER - INFO - Initialising Crawling with page_limit : 2
+2024-12-17 16:16:10,815 - CRAWLER - INFO - Hitting page:1, https://dentalstall.com/shop/page/1
+2024-12-17 16:16:11,110 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.04483
+2024-12-17 16:16:11,272 - CRAWLER - INFO - Price changed, caching new price 1 x GDC Extraction Forceps Lower Molars - 86 Ergonomic (FX86E), 850.00
+2024-12-17 16:16:11,312 - CRAWLER - INFO - Price changed, caching new price 3A MEDES Bleaching And Night Guard Sheets, 1380.00
+2024-12-17 16:16:11,351 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Easy Bond Self-Etch Adhesive, 2365.00
+2024-12-17 16:16:11,393 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Adper Scotchbond Multi-Purpose Plus, 1195.00
+2024-12-17 16:16:11,437 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Single Bond Universal Adhesive, 2590.00
+2024-12-17 16:16:11,476 - CRAWLER - INFO - Price changed, caching new price 3m Espe Clinpro Sealant - Refills, 1995.00
+2024-12-17 16:16:11,518 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Clinpro Tooth Creme, 500.00
+2024-12-17 16:16:11,558 - CRAWLER - INFO - Price changed, caching new price 3M Espe Composite Syringe Organiser, 995.00
+2024-12-17 16:16:11,599 - CRAWLER - INFO - Price changed, caching new price 3m Espe Elipar Deepcure Led - Curing Light, 54600.00
+2024-12-17 16:16:11,642 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Express XT VPS Impression Material - Refills, 2860.00
+2024-12-17 16:16:11,681 - CRAWLER - INFO - Price changed, caching new price 3m Espe Filtek Bulk Fill Composite Syringe 4gm, 4495.00
+2024-12-17 16:16:11,720 - CRAWLER - INFO - Price changed, caching new price 3M Espe Filtek Supreme Flowable Restorative, 1280.00
+2024-12-17 16:16:11,760 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Filtek Z250XT Nanohybrid Restrorative kit (5 syringe kit), 1280.00
+2024-12-17 16:16:11,802 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Impregum Soft - Refills, 4495.00
+2024-12-17 16:16:11,844 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Imprint Bite Registration Material (Vps), 7790.00
+2024-12-17 16:16:11,886 - CRAWLER - INFO - Price changed, caching new price 3m Espe Ketac Universal Glass Ionomer Restorative, 3195.00
+2024-12-17 16:16:11,932 - CRAWLER - INFO - Price changed, caching new price 3M Espe mixing tips (BLUE) Pack of 8, 3255.00
+2024-12-17 16:16:11,979 - CRAWLER - INFO - Price changed, caching new price 3m Espe Monophase Polyether Impression Material, 5143.00
+2024-12-17 16:16:12,018 - CRAWLER - INFO - Price changed, caching new price 3m Espe P-60 Micro Hybrid Posterior Syringe, 1770.00
+2024-12-17 16:16:12,057 - CRAWLER - INFO - Price changed, caching new price 3m Espe Pediatric Strip Crown Forms, 1230.00
+2024-12-17 16:16:12,101 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Pedodontic Strip Crown Kit, 20500.00
+2024-12-17 16:16:12,139 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Ceramic Primer, 1640.00
+2024-12-17 16:16:12,185 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Luting 2 Refill Packs, 4580.00
+2024-12-17 16:16:12,225 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Veneer Cement, 2450.00
+2024-12-17 16:16:12,227 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 16:16:12,227 - CRAWLER - INFO - Hitting page:2, https://dentalstall.com/shop/page/2
+2024-12-17 16:16:12,292 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/2 -> 200, latency -> 0.05319
+2024-12-17 16:16:12,563 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Restorative Introductory Valux Kit, 4395.00
+2024-12-17 16:16:12,613 - CRAWLER - INFO - Price changed, caching new price 3M Espe Retraction Capsule, 5395.00
+2024-12-17 16:16:12,676 - CRAWLER - INFO - Price changed, caching new price 3m Espe Sof-Lex Finishing Strips - Refills, 2272.00
+2024-12-17 16:16:12,728 - CRAWLER - INFO - Price changed, caching new price 3m Espe Sof-Lex Polishing Discs - Kits & Accessories, 780.00
+2024-12-17 16:16:12,780 - CRAWLER - INFO - Price changed, caching new price 3m Espe Sof-Lex Spiral Wheels - Trial Kit, 2365.00
+2024-12-17 16:16:12,783 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 5
+2024-12-17 16:16:12,837 - CRAWLER - INFO - Price changed, caching new price 3m Espe Sof-Lex Spiral Wheels-Refills, 4550.00
+2024-12-17 16:16:12,892 - CRAWLER - INFO - Price changed, caching new price 3M Espe SS Crown Primary Molar Crown-D (1st molar), 620.00
+2024-12-17 16:16:12,941 - CRAWLER - INFO - Price changed, caching new price 3m Espe Stainless Steel Primary Crown E( 2nd Molar), 620.00
+2024-12-17 16:16:12,989 - CRAWLER - INFO - Price changed, caching new price 3m Espe Vitrebond Light Cure Glass Ionomer Liner/Base - Refills, 2750.00
+2024-12-17 16:16:13,041 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Vitrebond Plus Light Cure Glass Ionomer Liner/Base Clicker, 6900.00
+2024-12-17 16:16:13,042 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 11
+2024-12-17 16:16:13,095 - CRAWLER - INFO - Price changed, caching new price 3m Espe Vps Tray Adhesive, 1495.00
+2024-12-17 16:16:13,144 - CRAWLER - INFO - Price changed, caching new price 3M Unitek Alastik Bobbin Chain, 2790.00
+2024-12-17 16:16:13,191 - CRAWLER - INFO - Price changed, caching new price 3M Unitek AlastiK Easy-To-Tie Ligature Pack Of 100, 3230.00
+2024-12-17 16:16:13,239 - CRAWLER - INFO - Price changed, caching new price 3m Unitek Clarity Advanced Ceramic Brackets, 14350.00
+2024-12-17 16:16:13,298 - CRAWLER - INFO - Price changed, caching new price 3m Unitek Forsus Fatigue Resistant Device Ez2 Module, 7750.00
+2024-12-17 16:16:13,350 - CRAWLER - INFO - Price changed, caching new price 3M Unitek Forsus Fatigue Resistant Device L-Pin Module, 6550.00
+2024-12-17 16:16:13,352 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 18
+2024-12-17 16:16:13,404 - CRAWLER - INFO - Price changed, caching new price 3M Unitek Gemini Self Ligating Metal Bracket MBT- 022 5x5, 8180.00
+2024-12-17 16:16:13,453 - CRAWLER - INFO - Price changed, caching new price 3M Unitek Transbond Plus Colour Change Syringe Refill, 3340.00
+2024-12-17 16:16:13,507 - CRAWLER - INFO - Price changed, caching new price 3M Unitek Transbond XT Adhesive Syringe 1 Syr Pack, 2800.00
+2024-12-17 16:16:13,508 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 22
+2024-12-17 16:16:13,560 - CRAWLER - INFO - Price changed, caching new price 3m Unitek Victory Series Twin Brackets, 5230.00
+2024-12-17 16:16:13,612 - CRAWLER - INFO - Price changed, caching new price Advance Biotech Osseomould, 2795.00
+2024-12-17 16:16:13,613 - CRAWLER - INFO - Page Complete, data generated for -> 45 products
+2024-12-17 16:16:13,614 - DB - INFO - 0 items saved
+2024-12-17 16:16:13,614 - NOTIFIER - DEBUG - Total No of products scraped -> 45
+2024-12-17 16:18:45,788 - DB - INFO - Creating new redis connection
+2024-12-17 16:18:55,751 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 16:18:55,751 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 16:18:55,752 - CRAWLER - INFO - Initialising Crawling with page_limit : 1
+2024-12-17 16:18:55,752 - CRAWLER - INFO - Hitting page:1, https://dentalstall.com/shop/page/1
+2024-12-17 16:18:56,187 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.050439
+2024-12-17 16:18:56,372 - CRAWLER - INFO - Price changed, caching new price 1 x GDC Extraction Forceps Lower Molars - 86 Ergonomic (FX86E), 850.00
+2024-12-17 16:18:56,420 - CRAWLER - INFO - Price changed, caching new price 3A MEDES Bleaching And Night Guard Sheets, 1380.00
+2024-12-17 16:18:56,472 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Easy Bond Self-Etch Adhesive, 2365.00
+2024-12-17 16:18:56,522 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Adper Scotchbond Multi-Purpose Plus, 1195.00
+2024-12-17 16:18:56,574 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Single Bond Universal Adhesive, 2590.00
+2024-12-17 16:18:56,622 - CRAWLER - INFO - Price changed, caching new price 3m Espe Clinpro Sealant - Refills, 1995.00
+2024-12-17 16:18:56,671 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Clinpro Tooth Creme, 500.00
+2024-12-17 16:18:56,722 - CRAWLER - INFO - Price changed, caching new price 3M Espe Composite Syringe Organiser, 995.00
+2024-12-17 16:18:56,772 - CRAWLER - INFO - Price changed, caching new price 3m Espe Elipar Deepcure Led - Curing Light, 54600.00
+2024-12-17 16:18:56,823 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Express XT VPS Impression Material - Refills, 2860.00
+2024-12-17 16:18:56,872 - CRAWLER - INFO - Price changed, caching new price 3m Espe Filtek Bulk Fill Composite Syringe 4gm, 4495.00
+2024-12-17 16:18:56,918 - CRAWLER - INFO - Price changed, caching new price 3M Espe Filtek Supreme Flowable Restorative, 1280.00
+2024-12-17 16:18:56,971 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Filtek Z250XT Nanohybrid Restrorative kit (5 syringe kit), 1280.00
+2024-12-17 16:18:57,018 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Impregum Soft - Refills, 4495.00
+2024-12-17 16:18:57,077 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Imprint Bite Registration Material (Vps), 7790.00
+2024-12-17 16:18:57,129 - CRAWLER - INFO - Price changed, caching new price 3m Espe Ketac Universal Glass Ionomer Restorative, 3195.00
+2024-12-17 16:18:57,176 - CRAWLER - INFO - Price changed, caching new price 3M Espe mixing tips (BLUE) Pack of 8, 3255.00
+2024-12-17 16:18:57,226 - CRAWLER - INFO - Price changed, caching new price 3m Espe Monophase Polyether Impression Material, 5143.00
+2024-12-17 16:18:57,271 - CRAWLER - INFO - Price changed, caching new price 3m Espe P-60 Micro Hybrid Posterior Syringe, 1770.00
+2024-12-17 16:18:57,318 - CRAWLER - INFO - Price changed, caching new price 3m Espe Pediatric Strip Crown Forms, 1230.00
+2024-12-17 16:18:57,380 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Pedodontic Strip Crown Kit, 20500.00
+2024-12-17 16:18:57,427 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Ceramic Primer, 1640.00
+2024-12-17 16:18:57,474 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Luting 2 Refill Packs, 4580.00
+2024-12-17 16:18:57,523 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Veneer Cement, 2450.00
+2024-12-17 16:18:57,524 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 16:18:57,525 - DB - INFO - 0 items saved
+2024-12-17 16:18:57,525 - NOTIFIER - DEBUG - Total No of products scraped -> 24
+2024-12-17 16:20:09,005 - DB - INFO - Creating new redis connection
+2024-12-17 16:20:15,470 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 16:20:15,470 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 16:20:15,470 - CRAWLER - INFO - Initialising Crawling with page_limit : 1
+2024-12-17 16:20:15,470 - CRAWLER - INFO - Hitting page:1, https://dentalstall.com/shop/page/1
+2024-12-17 16:20:15,727 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.059076
+2024-12-17 16:20:15,912 - CRAWLER - INFO - Price changed, caching new price 1 x GDC Extraction Forceps Lower Molars - 86 Ergonomic (FX86E), 850.00
+2024-12-17 16:20:15,955 - CRAWLER - INFO - Price changed, caching new price 3A MEDES Bleaching And Night Guard Sheets, 1380.00
+2024-12-17 16:20:15,998 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Easy Bond Self-Etch Adhesive, 2365.00
+2024-12-17 16:20:16,041 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Adper Scotchbond Multi-Purpose Plus, 1195.00
+2024-12-17 16:20:16,087 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Single Bond Universal Adhesive, 2590.00
+2024-12-17 16:20:16,131 - CRAWLER - INFO - Price changed, caching new price 3m Espe Clinpro Sealant - Refills, 1995.00
+2024-12-17 16:20:16,175 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Clinpro Tooth Creme, 500.00
+2024-12-17 16:20:16,224 - CRAWLER - INFO - Price changed, caching new price 3M Espe Composite Syringe Organiser, 995.00
+2024-12-17 16:20:16,267 - CRAWLER - INFO - Price changed, caching new price 3m Espe Elipar Deepcure Led - Curing Light, 54600.00
+2024-12-17 16:20:16,316 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Express XT VPS Impression Material - Refills, 2860.00
+2024-12-17 16:20:16,359 - CRAWLER - INFO - Price changed, caching new price 3m Espe Filtek Bulk Fill Composite Syringe 4gm, 4495.00
+2024-12-17 16:20:16,414 - CRAWLER - INFO - Price changed, caching new price 3M Espe Filtek Supreme Flowable Restorative, 1280.00
+2024-12-17 16:20:16,457 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Filtek Z250XT Nanohybrid Restrorative kit (5 syringe kit), 1280.00
+2024-12-17 16:20:16,506 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Impregum Soft - Refills, 4495.00
+2024-12-17 16:20:16,551 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Imprint Bite Registration Material (Vps), 7790.00
+2024-12-17 16:20:16,593 - CRAWLER - INFO - Price changed, caching new price 3m Espe Ketac Universal Glass Ionomer Restorative, 3195.00
+2024-12-17 16:20:16,635 - CRAWLER - INFO - Price changed, caching new price 3M Espe mixing tips (BLUE) Pack of 8, 3255.00
+2024-12-17 16:20:16,678 - CRAWLER - INFO - Price changed, caching new price 3m Espe Monophase Polyether Impression Material, 5143.00
+2024-12-17 16:20:16,718 - CRAWLER - INFO - Price changed, caching new price 3m Espe P-60 Micro Hybrid Posterior Syringe, 1770.00
+2024-12-17 16:20:16,763 - CRAWLER - INFO - Price changed, caching new price 3m Espe Pediatric Strip Crown Forms, 1230.00
+2024-12-17 16:20:16,808 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Pedodontic Strip Crown Kit, 20500.00
+2024-12-17 16:20:16,850 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Ceramic Primer, 1640.00
+2024-12-17 16:20:16,891 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Luting 2 Refill Packs, 4580.00
+2024-12-17 16:20:16,934 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Veneer Cement, 2450.00
+2024-12-17 16:20:16,935 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 16:20:16,937 - DB - INFO - 0 items saved
+2024-12-17 16:20:16,937 - NOTIFIER - DEBUG - Total No of products scraped -> 24
+2024-12-17 16:20:23,762 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 16:20:23,763 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 16:20:23,763 - CRAWLER - INFO - Initialising Crawling with page_limit : 1
+2024-12-17 16:20:23,763 - CRAWLER - INFO - Hitting page:1, https://dentalstall.com/shop/page/1
+2024-12-17 16:20:23,995 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.045847
+2024-12-17 16:20:24,314 - CRAWLER - INFO - Price changed, caching new price 1 x GDC Extraction Forceps Lower Molars - 86 Ergonomic (FX86E), 850.00
+2024-12-17 16:20:24,358 - CRAWLER - INFO - Price changed, caching new price 3A MEDES Bleaching And Night Guard Sheets, 1380.00
+2024-12-17 16:20:24,400 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Easy Bond Self-Etch Adhesive, 2365.00
+2024-12-17 16:20:24,445 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Adper Scotchbond Multi-Purpose Plus, 1195.00
+2024-12-17 16:20:24,493 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Single Bond Universal Adhesive, 2590.00
+2024-12-17 16:20:24,537 - CRAWLER - INFO - Price changed, caching new price 3m Espe Clinpro Sealant - Refills, 1995.00
+2024-12-17 16:20:24,581 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Clinpro Tooth Creme, 500.00
+2024-12-17 16:20:24,628 - CRAWLER - INFO - Price changed, caching new price 3M Espe Composite Syringe Organiser, 995.00
+2024-12-17 16:20:24,668 - CRAWLER - INFO - Price changed, caching new price 3m Espe Elipar Deepcure Led - Curing Light, 54600.00
+2024-12-17 16:20:24,713 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Express XT VPS Impression Material - Refills, 2860.00
+2024-12-17 16:20:24,756 - CRAWLER - INFO - Price changed, caching new price 3m Espe Filtek Bulk Fill Composite Syringe 4gm, 4495.00
+2024-12-17 16:20:24,803 - CRAWLER - INFO - Price changed, caching new price 3M Espe Filtek Supreme Flowable Restorative, 1280.00
+2024-12-17 16:20:24,845 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Filtek Z250XT Nanohybrid Restrorative kit (5 syringe kit), 1280.00
+2024-12-17 16:20:24,891 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Impregum Soft - Refills, 4495.00
+2024-12-17 16:20:24,938 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Imprint Bite Registration Material (Vps), 7790.00
+2024-12-17 16:20:24,982 - CRAWLER - INFO - Price changed, caching new price 3m Espe Ketac Universal Glass Ionomer Restorative, 3195.00
+2024-12-17 16:20:25,024 - CRAWLER - INFO - Price changed, caching new price 3M Espe mixing tips (BLUE) Pack of 8, 3255.00
+2024-12-17 16:20:25,070 - CRAWLER - INFO - Price changed, caching new price 3m Espe Monophase Polyether Impression Material, 5143.00
+2024-12-17 16:20:25,110 - CRAWLER - INFO - Price changed, caching new price 3m Espe P-60 Micro Hybrid Posterior Syringe, 1770.00
+2024-12-17 16:20:25,153 - CRAWLER - INFO - Price changed, caching new price 3m Espe Pediatric Strip Crown Forms, 1230.00
+2024-12-17 16:20:25,200 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Pedodontic Strip Crown Kit, 20500.00
+2024-12-17 16:20:25,245 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Ceramic Primer, 1640.00
+2024-12-17 16:20:25,290 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Luting 2 Refill Packs, 4580.00
+2024-12-17 16:20:25,331 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Veneer Cement, 2450.00
+2024-12-17 16:20:25,332 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 16:20:25,333 - DB - INFO - 0 items saved
+2024-12-17 16:20:25,333 - NOTIFIER - DEBUG - Total No of products scraped -> 24
+2024-12-17 16:21:11,082 - DB - INFO - Creating new redis connection
+2024-12-17 16:21:15,058 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 16:21:15,058 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 16:21:15,058 - CRAWLER - INFO - Initialising Crawling with page_limit : 1
+2024-12-17 16:21:15,058 - CRAWLER - INFO - Hitting page:1, https://dentalstall.com/shop/page/1
+2024-12-17 16:21:15,330 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.054953
+2024-12-17 16:21:15,515 - CRAWLER - INFO - Price changed, caching new price 1 x GDC Extraction Forceps Lower Molars - 86 Ergonomic (FX86E), 850.00
+2024-12-17 16:21:15,566 - CRAWLER - INFO - Price changed, caching new price 3A MEDES Bleaching And Night Guard Sheets, 1380.00
+2024-12-17 16:21:15,615 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Easy Bond Self-Etch Adhesive, 2365.00
+2024-12-17 16:21:15,676 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Adper Scotchbond Multi-Purpose Plus, 1195.00
+2024-12-17 16:21:15,730 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Single Bond Universal Adhesive, 2590.00
+2024-12-17 16:21:15,776 - CRAWLER - INFO - Price changed, caching new price 3m Espe Clinpro Sealant - Refills, 1995.00
+2024-12-17 16:21:15,827 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Clinpro Tooth Creme, 500.00
+2024-12-17 16:21:15,879 - CRAWLER - INFO - Price changed, caching new price 3M Espe Composite Syringe Organiser, 995.00
+2024-12-17 16:21:15,927 - CRAWLER - INFO - Price changed, caching new price 3m Espe Elipar Deepcure Led - Curing Light, 54600.00
+2024-12-17 16:21:15,979 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Express XT VPS Impression Material - Refills, 2860.00
+2024-12-17 16:21:16,027 - CRAWLER - INFO - Price changed, caching new price 3m Espe Filtek Bulk Fill Composite Syringe 4gm, 4495.00
+2024-12-17 16:21:16,073 - CRAWLER - INFO - Price changed, caching new price 3M Espe Filtek Supreme Flowable Restorative, 1280.00
+2024-12-17 16:21:16,125 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Filtek Z250XT Nanohybrid Restrorative kit (5 syringe kit), 1280.00
+2024-12-17 16:21:16,181 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Impregum Soft - Refills, 4495.00
+2024-12-17 16:21:16,234 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Imprint Bite Registration Material (Vps), 7790.00
+2024-12-17 16:21:16,284 - CRAWLER - INFO - Price changed, caching new price 3m Espe Ketac Universal Glass Ionomer Restorative, 3195.00
+2024-12-17 16:21:16,335 - CRAWLER - INFO - Price changed, caching new price 3M Espe mixing tips (BLUE) Pack of 8, 3255.00
+2024-12-17 16:21:16,388 - CRAWLER - INFO - Price changed, caching new price 3m Espe Monophase Polyether Impression Material, 5143.00
+2024-12-17 16:21:16,438 - CRAWLER - INFO - Price changed, caching new price 3m Espe P-60 Micro Hybrid Posterior Syringe, 1770.00
+2024-12-17 16:21:16,489 - CRAWLER - INFO - Price changed, caching new price 3m Espe Pediatric Strip Crown Forms, 1230.00
+2024-12-17 16:21:16,544 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Pedodontic Strip Crown Kit, 20500.00
+2024-12-17 16:21:16,595 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Ceramic Primer, 1640.00
+2024-12-17 16:21:16,658 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Luting 2 Refill Packs, 4580.00
+2024-12-17 16:21:16,707 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Veneer Cement, 2450.00
+2024-12-17 16:21:16,708 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 16:21:16,711 - DB - INFO - 0 items saved
+2024-12-17 16:21:16,711 - NOTIFIER - DEBUG - Total No of products scraped -> 24
+2024-12-17 16:21:43,388 - DB - INFO - Creating new redis connection
+2024-12-17 16:21:46,217 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 16:21:46,218 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 16:21:46,218 - CRAWLER - INFO - Initialising Crawling with page_limit : 1
+2024-12-17 16:21:46,218 - CRAWLER - INFO - Hitting page:1, https://dentalstall.com/shop/page/1
+2024-12-17 16:21:46,449 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.048262
+2024-12-17 16:21:46,660 - CRAWLER - INFO - Price changed, caching new price 1 x GDC Extraction Forceps Lower Molars - 86 Ergonomic (FX86E), 850.00
+2024-12-17 16:21:46,704 - CRAWLER - INFO - Price changed, caching new price 3A MEDES Bleaching And Night Guard Sheets, 1380.00
+2024-12-17 16:21:46,753 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Easy Bond Self-Etch Adhesive, 2365.00
+2024-12-17 16:21:46,795 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Adper Scotchbond Multi-Purpose Plus, 1195.00
+2024-12-17 16:21:46,846 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Single Bond Universal Adhesive, 2590.00
+2024-12-17 16:21:46,890 - CRAWLER - INFO - Price changed, caching new price 3m Espe Clinpro Sealant - Refills, 1995.00
+2024-12-17 16:21:46,938 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Clinpro Tooth Creme, 500.00
+2024-12-17 16:21:46,985 - CRAWLER - INFO - Price changed, caching new price 3M Espe Composite Syringe Organiser, 995.00
+2024-12-17 16:21:47,029 - CRAWLER - INFO - Price changed, caching new price 3m Espe Elipar Deepcure Led - Curing Light, 54600.00
+2024-12-17 16:21:47,072 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Express XT VPS Impression Material - Refills, 2860.00
+2024-12-17 16:21:47,110 - CRAWLER - INFO - Price changed, caching new price 3m Espe Filtek Bulk Fill Composite Syringe 4gm, 4495.00
+2024-12-17 16:21:47,151 - CRAWLER - INFO - Price changed, caching new price 3M Espe Filtek Supreme Flowable Restorative, 1280.00
+2024-12-17 16:21:47,197 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Filtek Z250XT Nanohybrid Restrorative kit (5 syringe kit), 1280.00
+2024-12-17 16:21:47,237 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Impregum Soft - Refills, 4495.00
+2024-12-17 16:21:47,278 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Imprint Bite Registration Material (Vps), 7790.00
+2024-12-17 16:21:47,321 - CRAWLER - INFO - Price changed, caching new price 3m Espe Ketac Universal Glass Ionomer Restorative, 3195.00
+2024-12-17 16:21:47,365 - CRAWLER - INFO - Price changed, caching new price 3M Espe mixing tips (BLUE) Pack of 8, 3255.00
+2024-12-17 16:21:47,413 - CRAWLER - INFO - Price changed, caching new price 3m Espe Monophase Polyether Impression Material, 5143.00
+2024-12-17 16:21:47,457 - CRAWLER - INFO - Price changed, caching new price 3m Espe P-60 Micro Hybrid Posterior Syringe, 1770.00
+2024-12-17 16:21:47,514 - CRAWLER - INFO - Price changed, caching new price 3m Espe Pediatric Strip Crown Forms, 1230.00
+2024-12-17 16:21:47,573 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Pedodontic Strip Crown Kit, 20500.00
+2024-12-17 16:21:47,619 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Ceramic Primer, 1640.00
+2024-12-17 16:21:47,664 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Luting 2 Refill Packs, 4580.00
+2024-12-17 16:21:47,704 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Veneer Cement, 2450.00
+2024-12-17 16:21:47,705 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 16:21:47,706 - DB - INFO - 0 items saved
+2024-12-17 16:21:47,707 - NOTIFIER - DEBUG - Total No of products scraped -> 24
+2024-12-17 16:22:35,858 - DB - INFO - Creating new redis connection
+2024-12-17 16:24:07,084 - DB - INFO - Creating new redis connection
+2024-12-17 16:24:09,957 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 16:24:09,958 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 16:24:09,958 - CRAWLER - INFO - Initialising Crawling with page_limit : 1
+2024-12-17 16:24:09,958 - CRAWLER - INFO - Hitting page:1, https://dentalstall.com/shop/page/1
+2024-12-17 16:24:10,241 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.066597
+2024-12-17 16:24:10,483 - CRAWLER - INFO - Price changed, caching new price 1 x GDC Extraction Forceps Lower Molars - 86 Ergonomic (FX86E), 850.00
+2024-12-17 16:24:10,533 - CRAWLER - INFO - Price changed, caching new price 3A MEDES Bleaching And Night Guard Sheets, 1380.00
+2024-12-17 16:24:10,585 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Easy Bond Self-Etch Adhesive, 2365.00
+2024-12-17 16:24:10,639 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Adper Scotchbond Multi-Purpose Plus, 1195.00
+2024-12-17 16:24:10,695 - CRAWLER - INFO - Price changed, caching new price 3m Espe Adper Single Bond Universal Adhesive, 2590.00
+2024-12-17 16:24:10,747 - CRAWLER - INFO - Price changed, caching new price 3m Espe Clinpro Sealant - Refills, 1995.00
+2024-12-17 16:24:10,795 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Clinpro Tooth Creme, 500.00
+2024-12-17 16:24:10,849 - CRAWLER - INFO - Price changed, caching new price 3M Espe Composite Syringe Organiser, 995.00
+2024-12-17 16:24:10,899 - CRAWLER - INFO - Price changed, caching new price 3m Espe Elipar Deepcure Led - Curing Light, 54600.00
+2024-12-17 16:24:10,949 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Express XT VPS Impression Material - Refills, 2860.00
+2024-12-17 16:24:10,998 - CRAWLER - INFO - Price changed, caching new price 3m Espe Filtek Bulk Fill Composite Syringe 4gm, 4495.00
+2024-12-17 16:24:11,045 - CRAWLER - INFO - Price changed, caching new price 3M Espe Filtek Supreme Flowable Restorative, 1280.00
+2024-12-17 16:24:11,106 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Filtek Z250XT Nanohybrid Restrorative kit (5 syringe kit), 1280.00
+2024-12-17 16:24:11,156 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Impregum Soft - Refills, 4495.00
+2024-12-17 16:24:11,207 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Imprint Bite Registration Material (Vps), 7790.00
+2024-12-17 16:24:11,257 - CRAWLER - INFO - Price changed, caching new price 3m Espe Ketac Universal Glass Ionomer Restorative, 3195.00
+2024-12-17 16:24:11,307 - CRAWLER - INFO - Price changed, caching new price 3M Espe mixing tips (BLUE) Pack of 8, 3255.00
+2024-12-17 16:24:11,360 - CRAWLER - INFO - Price changed, caching new price 3m Espe Monophase Polyether Impression Material, 5143.00
+2024-12-17 16:24:11,407 - CRAWLER - INFO - Price changed, caching new price 3m Espe P-60 Micro Hybrid Posterior Syringe, 1770.00
+2024-12-17 16:24:11,456 - CRAWLER - INFO - Price changed, caching new price 3m Espe Pediatric Strip Crown Forms, 1230.00
+2024-12-17 16:24:11,509 - CRAWLER - INFO - Price changed, caching new price 3M ESPE Pedodontic Strip Crown Kit, 20500.00
+2024-12-17 16:24:11,557 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Ceramic Primer, 1640.00
+2024-12-17 16:24:11,606 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Luting 2 Refill Packs, 4580.00
+2024-12-17 16:24:11,656 - CRAWLER - INFO - Price changed, caching new price 3m Espe Relyx Veneer Cement, 2450.00
+2024-12-17 16:24:11,657 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 16:24:11,659 - DB - INFO - 0 items saved
+2024-12-17 16:24:11,659 - NOTIFIER - DEBUG - Total No of products scraped -> 24
+2024-12-17 16:24:43,511 - DB - INFO - Creating new redis connection
+2024-12-17 16:24:45,137 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 16:24:45,137 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 16:24:45,138 - CRAWLER - INFO - Initialising Crawling with page_limit : 1
+2024-12-17 16:24:45,138 - CRAWLER - INFO - Hitting page:1, https://dentalstall.com/shop/page/1
+2024-12-17 16:24:45,549 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.048216
+2024-12-17 16:24:45,731 - CRAWLER - DEBUG - Price is same no need to update product -> 1 x GDC Extraction Forceps Lower Molars - 86 Ergonomic (FX86E)
+2024-12-17 16:24:45,779 - CRAWLER - DEBUG - Price is same no need to update product -> 3A MEDES Bleaching And Night Guard Sheets
+2024-12-17 16:24:45,827 - CRAWLER - DEBUG - Price is same no need to update product -> 3m Espe Adper Easy Bond Self-Etch Adhesive
+2024-12-17 16:24:45,879 - CRAWLER - DEBUG - Price is same no need to update product -> 3M ESPE Adper Scotchbond Multi-Purpose Plus
+2024-12-17 16:24:45,929 - CRAWLER - DEBUG - Price is same no need to update product -> 3m Espe Adper Single Bond Universal Adhesive
+2024-12-17 16:24:45,978 - CRAWLER - DEBUG - Price is same no need to update product -> 3m Espe Clinpro Sealant - Refills
+2024-12-17 16:24:46,036 - CRAWLER - DEBUG - Price is same no need to update product -> 3M ESPE Clinpro Tooth Creme
+2024-12-17 16:24:46,094 - CRAWLER - DEBUG - Price is same no need to update product -> 3M Espe Composite Syringe Organiser
+2024-12-17 16:24:46,141 - CRAWLER - DEBUG - Price is same no need to update product -> 3m Espe Elipar Deepcure Led - Curing Light
+2024-12-17 16:24:46,190 - CRAWLER - DEBUG - Price is same no need to update product -> 3M ESPE Express XT VPS Impression Material - Refills
+2024-12-17 16:24:46,240 - CRAWLER - DEBUG - Price is same no need to update product -> 3m Espe Filtek Bulk Fill Composite Syringe 4gm
+2024-12-17 16:24:46,292 - CRAWLER - DEBUG - Price is same no need to update product -> 3M Espe Filtek Supreme Flowable Restorative
+2024-12-17 16:24:46,362 - CRAWLER - DEBUG - Price is same no need to update product -> 3M ESPE Filtek Z250XT Nanohybrid Restrorative kit (5 syringe kit)
+2024-12-17 16:24:46,435 - CRAWLER - DEBUG - Price is same no need to update product -> 3M ESPE Impregum Soft - Refills
+2024-12-17 16:24:46,503 - CRAWLER - DEBUG - Price is same no need to update product -> 3M ESPE Imprint Bite Registration Material (Vps)
+2024-12-17 16:24:46,558 - CRAWLER - DEBUG - Price is same no need to update product -> 3m Espe Ketac Universal Glass Ionomer Restorative
+2024-12-17 16:24:46,616 - CRAWLER - DEBUG - Price is same no need to update product -> 3M Espe mixing tips (BLUE) Pack of 8
+2024-12-17 16:24:46,675 - CRAWLER - DEBUG - Price is same no need to update product -> 3m Espe Monophase Polyether Impression Material
+2024-12-17 16:24:46,724 - CRAWLER - DEBUG - Price is same no need to update product -> 3m Espe P-60 Micro Hybrid Posterior Syringe
+2024-12-17 16:24:46,774 - CRAWLER - DEBUG - Price is same no need to update product -> 3m Espe Pediatric Strip Crown Forms
+2024-12-17 16:24:46,825 - CRAWLER - DEBUG - Price is same no need to update product -> 3M ESPE Pedodontic Strip Crown Kit
+2024-12-17 16:24:46,900 - CRAWLER - DEBUG - Price is same no need to update product -> 3m Espe Relyx Ceramic Primer
+2024-12-17 16:24:46,957 - CRAWLER - DEBUG - Price is same no need to update product -> 3m Espe Relyx Luting 2 Refill Packs
+2024-12-17 16:24:47,007 - CRAWLER - DEBUG - Price is same no need to update product -> 3m Espe Relyx Veneer Cement
+2024-12-17 16:24:47,007 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 16:24:47,012 - DB - INFO - 24 items saved
+2024-12-17 16:24:47,013 - NOTIFIER - DEBUG - Total No of products scraped -> 24
+2024-12-17 16:27:30,240 - DB - INFO - Creating new redis connection
+2024-12-17 16:27:32,012 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 16:27:32,012 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 16:27:32,013 - CRAWLER - INFO - Initialising Crawling with page_limit : 1
+2024-12-17 16:27:32,013 - CRAWLER - INFO - Hitting page:1, https://dentalstall.com/shop/page/1
+2024-12-17 16:27:32,249 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.04392
+2024-12-17 16:27:36,498 - CRAWLER - WARNING - Exception occurred while checking cache 1 x GDC Extraction Forceps Lower Molars - 86 Ergonomic (FX86E), Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:27:40,616 - CRAWLER - WARNING - Exception occurred while checking cache 3A MEDES Bleaching And Night Guard Sheets, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:27:44,713 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Adper Easy Bond Self-Etch Adhesive, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:27:48,817 - CRAWLER - WARNING - Exception occurred while checking cache 3M ESPE Adper Scotchbond Multi-Purpose Plus, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:27:52,914 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Adper Single Bond Universal Adhesive, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:27:57,034 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Clinpro Sealant - Refills, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:28:01,155 - CRAWLER - WARNING - Exception occurred while checking cache 3M ESPE Clinpro Tooth Creme, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:28:05,269 - CRAWLER - WARNING - Exception occurred while checking cache 3M Espe Composite Syringe Organiser, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:28:09,388 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Elipar Deepcure Led - Curing Light, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:28:13,515 - CRAWLER - WARNING - Exception occurred while checking cache 3M ESPE Express XT VPS Impression Material - Refills, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:28:17,654 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Filtek Bulk Fill Composite Syringe 4gm, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:28:21,744 - CRAWLER - WARNING - Exception occurred while checking cache 3M Espe Filtek Supreme Flowable Restorative, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:28:25,866 - CRAWLER - WARNING - Exception occurred while checking cache 3M ESPE Filtek Z250XT Nanohybrid Restrorative kit (5 syringe kit), Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:28:29,988 - CRAWLER - WARNING - Exception occurred while checking cache 3M ESPE Impregum Soft - Refills, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:28:34,112 - CRAWLER - WARNING - Exception occurred while checking cache 3M ESPE Imprint Bite Registration Material (Vps), Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:28:38,269 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Ketac Universal Glass Ionomer Restorative, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:28:42,358 - CRAWLER - WARNING - Exception occurred while checking cache 3M Espe mixing tips (BLUE) Pack of 8, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:28:46,461 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Monophase Polyether Impression Material, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:28:50,577 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe P-60 Micro Hybrid Posterior Syringe, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:28:54,679 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Pediatric Strip Crown Forms, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:28:58,796 - CRAWLER - WARNING - Exception occurred while checking cache 3M ESPE Pedodontic Strip Crown Kit, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:29:02,903 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Relyx Ceramic Primer, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:29:07,026 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Relyx Luting 2 Refill Packs, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:29:11,147 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Relyx Veneer Cement, Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2024-12-17 16:29:11,148 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 16:29:11,153 - DB - INFO - 24 items saved
+2024-12-17 16:29:11,153 - NOTIFIER - DEBUG - Total No of products scraped -> 24

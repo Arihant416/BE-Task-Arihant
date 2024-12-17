@@ -7,7 +7,7 @@ def get_logger(name):
     logger = logging.getLogger(name)
     logger.setLevel(logging.DEBUG)
     c_handler = logging.StreamHandler()
-    f_handler = logging.FileHandler('logfile.log')
+    f_handler = logging.FileHandler('logfileAfterRedis.log')
     c_handler.setLevel(logging.WARNING)
     f_handler.setLevel(logging.DEBUG)
     

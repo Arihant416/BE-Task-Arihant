@@ -8,8 +8,10 @@ from src.models.product import Product
 from src.utils import get_random_user_agent
 from src.constants import *
 from src.log_config import get_logger
+from src.db import get_redis_conn
 
 logger = get_logger("CRAWLER")
+redis_conn = get_redis_conn()
 
 class Crawler:
     def __init__(self, page_limit: int = None, proxy: Optional[str]= None):
@@ -43,6 +45,18 @@ class Crawler:
         except Exception as e:
             logger.warning(f"Exception {e} occurred while crawling page {current_page}")
 
+    def is_product_price_updated(self, product_title: str, product_price: float):
+        try:
+            price_cached = redis_conn.get(product_title)
+            if price_cached and float(product_price) == float(price_cached):
+                logger.debug(f"Price is same no need to update product -> {product_title}")
+                return False
+            logger.info(f"Price changed, caching new price {product_title}, {product_price}")
+            redis_conn.set(product_title, float(product_price), ex=60)
+            return True
+        except Exception as e:
+            logger.warning(f"Exception occurred while checking cache {product_title}, {e}")
+        return False
 
     def parse_response(self, response):
         try:
@@ -65,9 +79,10 @@ class Crawler:
                         img_src=IMAGE_SRC_NOT_FOUND
                     if product_title and product_price and img_src != IMAGE_SRC_NOT_FOUND:
                         self.products_scraped += 1
-                        self.products.append(Product(
-                            product_price=product_price, product_title=product_title, path_to_image=img_src
-                        ))
+                        if not self.is_product_price_updated(product_title, product_price):
+                            self.products.append(Product(
+                                product_price=product_price, product_title=product_title, path_to_image=img_src
+                            ))
                 except Exception as e:
                     logger.warning(f"Exception {e} occurred for product index {ind}")
                     continue

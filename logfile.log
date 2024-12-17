@@ -97,3 +97,33 @@
 2024-12-17 14:33:28,967 - CRAWLER - INFO - Page Complete, data generated for -> 92 products
 2024-12-17 14:33:28,971 - DB - INFO - 92 items saved
 2024-12-17 14:33:28,971 - NOTIFIER - DEBUG - Total No of products scraped -> 92
+2024-12-17 15:49:02,612 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 15:49:02,613 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 15:49:02,613 - CRAWLER - INFO - Initialising Crawling with page_limit : 1
+2024-12-17 15:49:02,613 - CRAWLER - INFO - Hitting page:1, https://dentalstall.com/shop/page/1
+2024-12-17 15:49:03,545 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.048516
+2024-12-17 15:49:03,752 - CRAWLER - WARNING - Exception occurred while checking cache 1 x GDC Extraction Forceps Lower Molars - 86 Ergonomic (FX86E), 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:03,803 - CRAWLER - WARNING - Exception occurred while checking cache 3A MEDES Bleaching And Night Guard Sheets, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:03,851 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Adper Easy Bond Self-Etch Adhesive, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:03,903 - CRAWLER - WARNING - Exception occurred while checking cache 3M ESPE Adper Scotchbond Multi-Purpose Plus, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:03,952 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Adper Single Bond Universal Adhesive, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,014 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Clinpro Sealant - Refills, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,066 - CRAWLER - WARNING - Exception occurred while checking cache 3M ESPE Clinpro Tooth Creme, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,115 - CRAWLER - WARNING - Exception occurred while checking cache 3M Espe Composite Syringe Organiser, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,165 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Elipar Deepcure Led - Curing Light, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,213 - CRAWLER - WARNING - Exception occurred while checking cache 3M ESPE Express XT VPS Impression Material - Refills, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,267 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Filtek Bulk Fill Composite Syringe 4gm, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,314 - CRAWLER - WARNING - Exception occurred while checking cache 3M Espe Filtek Supreme Flowable Restorative, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,364 - CRAWLER - WARNING - Exception occurred while checking cache 3M ESPE Filtek Z250XT Nanohybrid Restrorative kit (5 syringe kit), 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,412 - CRAWLER - WARNING - Exception occurred while checking cache 3M ESPE Impregum Soft - Refills, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,461 - CRAWLER - WARNING - Exception occurred while checking cache 3M ESPE Imprint Bite Registration Material (Vps), 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,512 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Ketac Universal Glass Ionomer Restorative, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,566 - CRAWLER - WARNING - Exception occurred while checking cache 3M Espe mixing tips (BLUE) Pack of 8, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,613 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Monophase Polyether Impression Material, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,668 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe P-60 Micro Hybrid Posterior Syringe, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,717 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Pediatric Strip Crown Forms, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,766 - CRAWLER - WARNING - Exception occurred while checking cache 3M ESPE Pedodontic Strip Crown Kit, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,814 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Relyx Ceramic Primer, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,863 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Relyx Luting 2 Refill Packs, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,911 - CRAWLER - WARNING - Exception occurred while checking cache 3m Espe Relyx Veneer Cement, 'NoneType' object has no attribute 'get'
+2024-12-17 15:49:04,911 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
