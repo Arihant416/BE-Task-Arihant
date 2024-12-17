@@ -1,0 +1,14 @@
+2024-12-17 11:17:18,787 - __main__ - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.045024
+2024-12-17 11:17:20,142 - __main__ - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 11:38:32,813 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 11:38:33,338 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.078334
+2024-12-17 11:38:34,804 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 12:19:13,242 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 12:19:13,760 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.045485
+2024-12-17 12:19:15,419 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 12:20:17,450 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 12:20:17,757 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.047013
+2024-12-17 12:20:18,852 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 12:20:32,249 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 12:20:32,662 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.056109
+2024-12-17 12:20:34,207 - CRAWLER - INFO - Page Complete, data generated for -> 24 products

@@ -1,12 +1,15 @@
-import json
-import requests
 import os
-from bs4 import BeautifulSoup
+import requests
+from time import sleep
 from typing import Optional
-from models.product import Product
+from bs4 import BeautifulSoup
 
+from models.product import Product
 from utils import get_random_user_agent
 from constants import *
+from log_config import get_logger
+
+logger = get_logger("CRAWLER")
 
 class Crawler:
     def __init__(self, page_limit: Optional[int] = None, proxy: Optional[str]= None):
@@ -16,6 +19,7 @@ class Crawler:
         self.session = requests.session() 
         self.products_scraped: int = 0
         self.products: list = []
+        logger.info("Crawler Initialised")
 
     def crawl(self):
         """
@@ -28,16 +32,16 @@ class Crawler:
                 # We do not want to show more products than the user wants to see
                 if self.page_limit and current_page > self.page_limit:
                     break
-                
                 url = f"https://dentalstall.com/shop/page/{current_page}"
                 status, response = self.process_request(url)
                 if status == OK and isinstance(response, requests.Response):
                     self.parse_response(response)
                     current_page += 1
                 else:
+                    logger.warning(f"Failed to fetch page {current_page}")
                     break
         except Exception as e:
-            print(f"Exception {e} occurred while crawling page {current_page}")
+            logger.warning(f"Exception {e} occurred while crawling page {current_page}")
 
 
     def parse_response(self, response):
@@ -65,30 +69,33 @@ class Crawler:
                             product_price=product_price, product_title=product_title, path_to_image=img_src
                         ))
                 except Exception as e:
-                    print(f"Exception {e} occurred for product index {ind}")
+                    logger.warning(f"Exception {e} occurred for product index {ind}")
                     continue
-            print(f"Page Complete, data generated for -> {self.products_scraped} products" )
+            logger.info(f"Page Complete, data generated for -> {self.products_scraped} products" )
         except Exception as e:
-            print(f"Exception {e} occurred while parsing")
+            logger.warning(f"Exception {e} occurred while parsing")
         
     def process_request(self, url):
         """
             @GET Request to the endpoint "https://dentalstall.com/shop/page/{page_no}"
-            Params: URL
+            params: URL
         """
-        request_headers= { "User-Agent": get_random_user_agent() }
+        retries = 3 
+        timeout = 1
+        request_headers = { "User-Agent": get_random_user_agent() }
         proxies = None
         if self.proxy_uri:
             proxies = {"https": self.proxy_uri, "http": self.proxy_uri}
-        try:
-            response = self.session.get(url=url, headers=request_headers, proxies=proxies)
-            print(f"status_code for url {url} -> {response.status_code}, latency -> {response.elapsed.total_seconds()}")
-            if response.status_code == 200:
-                return [OK, response]
-            else:
-                return [FAILURE, None]
-        except Exception as e:
-            print(f"Exception {e} occurred while processing url->{url}")
+        for trial in range(retries):
+            timeout = timeout+retries
+            try:
+                response = self.session.get(url=url, headers=request_headers, proxies=proxies, timeout=timeout)
+                logger.info(f"status_code for url {url} -> {response.status_code}, latency -> {response.elapsed.total_seconds()}")
+                if response.status_code == 200:
+                    return [OK, response]
+            except Exception as e:
+                logger.warning(f"Exception {e} occurred while processing url->{url}, in trial {trial}. retrying in 2 seconds...")
+            sleep(2)                
         return [FAILURE, None]
 
     def save_image(self, image_url: str, product_title: str):
@@ -108,16 +115,12 @@ class Crawler:
                 f.write(resp.content)
             return file_path
         except Exception as e:
-            print(f"Exception occurred while saving photo of {product_title}", e)
-        return IMAGE_SRC_NOT_FOUND
-
-    
-            
+            logger.warning(f"Exception occurred while saving photo of {product_title}", e)
+        return IMAGE_SRC_NOT_FOUND            
 
 
 if __name__ == "__main__":
     limit = int(input())
     crawler = Crawler(limit)
     crawler.crawl()
-    for product in crawler.products:
-        print(product)
+    print(f"Total Products Scraped {crawler.products_scraped}")
