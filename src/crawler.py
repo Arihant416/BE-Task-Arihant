@@ -3,7 +3,7 @@ import requests
 from time import sleep
 from typing import Optional
 from bs4 import BeautifulSoup
-
+from src.abstracts.AbstractCrawler import AbstractCrawler
 from src.models.product import Product
 from src.utils import get_random_user_agent
 from src.constants import *
@@ -13,15 +13,11 @@ from src.db import get_redis_conn
 logger = get_logger("CRAWLER")
 redis_conn = get_redis_conn()
 
-class Crawler:
+class Crawler(AbstractCrawler):
     def __init__(self, page_limit: int = None, proxy: Optional[str]= None):
-        self.page_limit = page_limit
-        self.proxy_uri = proxy
-        self.products = []
+        super().__init__(page_limit, proxy)
         self.session = requests.session() 
         self.products_scraped: int = 0
-        self.products: list = []
-        logger.info("Crawler Initialised")
 
     def crawl(self):
         """
