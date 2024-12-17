@@ -3,6 +3,7 @@ import requests
 import os
 from bs4 import BeautifulSoup
 from typing import Optional
+from models.product import Product
 
 from utils import get_random_user_agent
 from constants import *
@@ -13,7 +14,8 @@ class Crawler:
         self.proxy_uri = proxy
         self.products = []
         self.session = requests.session() 
-        self.product_scraped: int = 0
+        self.products_scraped: int = 0
+        self.products: list = []
 
     def crawl(self):
         """
@@ -43,22 +45,29 @@ class Crawler:
             soup = BeautifulSoup(response.content, 'html.parser')
             product_block = soup.find("ul",attrs={"class": "products"})
             product_list = product_block.find_all("li")
-            for product in product_list:
-                price = product.find("span", attrs={"class": "price"}).find("bdi").text
-                image = product.find("img")
-                if image and image.has_attr("title"):
-                    title = image["title"].replace("- Dentalstall India", "").strip()
-                else:
-                    title = product.find("h2").text
-                if image and image.has_attr("data-lazy-srcset"):
-                    img_url = image["data-lazy-srcset"].split(",")[0].split(" ")[0].strip()
-                    img_src = self.save_image(img_url, title)
-                else:
-                    img_src = IMAGE_SRC_NOT_FOUND
-                print(title, price, img_src)
-                if title and price and img_src != IMAGE_SRC_NOT_FOUND:
-                    self.product_scraped += 1
-            print("Count -> ", self.product_scraped)
+            for ind in range(len(product_list)):
+                try:
+                    product = product_list[ind]
+                    thumbnail = product.find("div", attrs={"class": "mf-product-thumbnail"})
+                    price_box = product.find("div", attrs={"class": "mf-product-price-box"})
+                    product_title = product.find("h2", attrs={"class": "woo-loop-product__title"}).text
+                    product_price = price_box.find("bdi").text.split("₹")[-1]
+                    img_tag = thumbnail.find("img")
+                    if img_tag:
+                        product_title = img_tag["title"].replace("- Dentalstall India", "").strip()
+                        img_url = img_tag["data-lazy-srcset"].split(",")[0].split(" ")[0].strip()
+                        img_src = self.save_image(image_url=img_url, product_title=product_title)
+                    else:
+                        img_src=IMAGE_SRC_NOT_FOUND
+                    if product_title and product_price and img_src != IMAGE_SRC_NOT_FOUND:
+                        self.products_scraped += 1
+                        self.products.append(Product(
+                            product_price=product_price, product_title=product_title, path_to_image=img_src
+                        ))
+                except Exception as e:
+                    print(f"Exception {e} occurred for product index {ind}")
+                    continue
+            print(f"Page Complete, data generated for -> {self.products_scraped} products" )
         except Exception as e:
             print(f"Exception {e} occurred while parsing")
         
@@ -82,7 +91,7 @@ class Crawler:
             print(f"Exception {e} occurred while processing url->{url}")
         return [FAILURE, None]
 
-    def save_image(self, image_url, product_title):
+    def save_image(self, image_url: str, product_title: str):
         """
             Need to save the product's image (jpg)
             return the file path where photo is saved
@@ -90,6 +99,7 @@ class Crawler:
         try:
             resp = self.session.get(url=image_url)
             directory = "images"
+            product_title = product_title.replace("/", " ")
             file_path = f"images/{product_title}.jpg"
             if not os.path.exists(directory):
                 os.makedirs(directory)
@@ -109,3 +119,5 @@ if __name__ == "__main__":
     limit = int(input())
     crawler = Crawler(limit)
     crawler.crawl()
+    for product in crawler.products:
+        print(product)

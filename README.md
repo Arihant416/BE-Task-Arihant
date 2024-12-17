@@ -18,3 +18,9 @@ pip install fastapi requests beautifulSoup4
 3. Create a basic blueprint (class) for what my crawler's going to accept! 
 
 4. Crawled the site for the first page and generated data for the 1st page products successfully to understand what challenges could be posed!! 
+   * For Now: Continuing if any product data is not scraped or an exception occurs while scraping a specific product.
+  
+5. So fastAPI will need a ASGI server to run. Uvicorn serves the purpose well for fastAPI based services. 
+```bash
+pip install uvicorn
+```
