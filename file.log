@@ -12,3 +12,258 @@
 2024-12-17 12:20:32,249 - CRAWLER - INFO - Crawler Initialised
 2024-12-17 12:20:32,662 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.056109
 2024-12-17 12:20:34,207 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 13:20:23,714 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 13:20:23,715 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 13:20:24,124 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/1 -> 200, latency -> 0.056588
+2024-12-17 13:20:25,405 - CRAWLER - INFO - Page Complete, data generated for -> 24 products
+2024-12-17 13:20:25,481 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/2 -> 200, latency -> 0.05586
+2024-12-17 13:20:25,887 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 5
+2024-12-17 13:20:26,181 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 11
+2024-12-17 13:20:26,504 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 18
+2024-12-17 13:20:26,674 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 22
+2024-12-17 13:20:26,786 - CRAWLER - INFO - Page Complete, data generated for -> 45 products
+2024-12-17 13:20:26,862 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/3 -> 200, latency -> 0.060194
+2024-12-17 13:20:27,819 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 15
+2024-12-17 13:20:28,533 - CRAWLER - INFO - Page Complete, data generated for -> 69 products
+2024-12-17 13:20:29,337 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/4 -> 200, latency -> 0.560877
+2024-12-17 13:20:30,685 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 22
+2024-12-17 13:20:30,734 - CRAWLER - INFO - Page Complete, data generated for -> 92 products
+2024-12-17 13:20:31,520 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/5 -> 200, latency -> 0.59338
+2024-12-17 13:20:33,124 - CRAWLER - INFO - Page Complete, data generated for -> 116 products
+2024-12-17 13:20:34,007 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/6 -> 200, latency -> 0.594442
+2024-12-17 13:20:34,960 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 15
+2024-12-17 13:20:35,401 - CRAWLER - INFO - Page Complete, data generated for -> 139 products
+2024-12-17 13:20:36,190 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/7 -> 200, latency -> 0.571694
+2024-12-17 13:20:36,475 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 1
+2024-12-17 13:20:36,910 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 6
+2024-12-17 13:20:36,911 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 7
+2024-12-17 13:20:36,912 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 8
+2024-12-17 13:20:37,757 - CRAWLER - INFO - Page Complete, data generated for -> 160 products
+2024-12-17 13:20:38,579 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/8 -> 200, latency -> 0.599575
+2024-12-17 13:20:40,001 - CRAWLER - INFO - Page Complete, data generated for -> 184 products
+2024-12-17 13:20:40,857 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/9 -> 200, latency -> 0.644872
+2024-12-17 13:20:42,331 - CRAWLER - INFO - Page Complete, data generated for -> 208 products
+2024-12-17 13:20:43,262 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/10 -> 200, latency -> 0.694522
+2024-12-17 13:20:43,459 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 1
+2024-12-17 13:20:43,684 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 6
+2024-12-17 13:20:43,797 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 9
+2024-12-17 13:20:43,967 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 13
+2024-12-17 13:20:43,968 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 14
+2024-12-17 13:20:44,472 - CRAWLER - INFO - Page Complete, data generated for -> 227 products
+2024-12-17 13:20:45,404 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/11 -> 200, latency -> 0.698551
+2024-12-17 13:20:46,839 - CRAWLER - INFO - Page Complete, data generated for -> 251 products
+2024-12-17 13:20:47,750 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/12 -> 200, latency -> 0.698498
+2024-12-17 13:20:47,999 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 2
+2024-12-17 13:20:49,596 - CRAWLER - INFO - Page Complete, data generated for -> 274 products
+2024-12-17 13:20:50,473 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/13 -> 200, latency -> 0.675515
+2024-12-17 13:20:51,021 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 6
+2024-12-17 13:20:52,254 - CRAWLER - INFO - Page Complete, data generated for -> 298 products
+2024-12-17 13:20:53,504 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/14 -> 200, latency -> 1.018158
+2024-12-17 13:20:54,886 - CRAWLER - INFO - Page Complete, data generated for -> 322 products
+2024-12-17 13:20:55,751 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/15 -> 200, latency -> 0.662398
+2024-12-17 13:20:57,194 - CRAWLER - INFO - Page Complete, data generated for -> 346 products
+2024-12-17 13:20:58,002 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/16 -> 200, latency -> 0.57327
+2024-12-17 13:20:59,363 - CRAWLER - INFO - Page Complete, data generated for -> 370 products
+2024-12-17 13:21:00,162 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/17 -> 200, latency -> 0.610065
+2024-12-17 13:21:01,594 - CRAWLER - INFO - Page Complete, data generated for -> 394 products
+2024-12-17 13:21:02,317 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/18 -> 200, latency -> 0.529292
+2024-12-17 13:21:03,815 - CRAWLER - INFO - Page Complete, data generated for -> 418 products
+2024-12-17 13:21:04,598 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/19 -> 200, latency -> 0.562919
+2024-12-17 13:21:06,106 - CRAWLER - INFO - Page Complete, data generated for -> 442 products
+2024-12-17 13:21:06,928 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/20 -> 200, latency -> 0.618558
+2024-12-17 13:21:08,318 - CRAWLER - INFO - Page Complete, data generated for -> 466 products
+2024-12-17 13:21:09,083 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/21 -> 200, latency -> 0.536011
+2024-12-17 13:21:09,652 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 5
+2024-12-17 13:21:09,828 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 9
+2024-12-17 13:21:09,877 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 11
+2024-12-17 13:21:09,878 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 12
+2024-12-17 13:21:10,709 - CRAWLER - INFO - Page Complete, data generated for -> 489 products
+2024-12-17 13:21:11,509 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/22 -> 200, latency -> 0.616485
+2024-12-17 13:21:12,410 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 10
+2024-12-17 13:21:12,510 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 13
+2024-12-17 13:21:12,510 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 14
+2024-12-17 13:21:12,761 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 20
+2024-12-17 13:21:12,980 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 25
+2024-12-17 13:21:13,028 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 27
+2024-12-17 13:21:13,029 - CRAWLER - INFO - Page Complete, data generated for -> 511 products
+2024-12-17 13:21:13,917 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/23 -> 200, latency -> 0.660976
+2024-12-17 13:21:14,162 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 1
+2024-12-17 13:21:14,214 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 3
+2024-12-17 13:21:14,257 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 5
+2024-12-17 13:21:14,298 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 7
+2024-12-17 13:21:14,395 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 10
+2024-12-17 13:21:14,584 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 15
+2024-12-17 13:21:14,585 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 16
+2024-12-17 13:21:14,684 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 19
+2024-12-17 13:21:14,685 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 20
+2024-12-17 13:21:15,202 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 31
+2024-12-17 13:21:15,203 - CRAWLER - INFO - Page Complete, data generated for -> 533 products
+2024-12-17 13:21:15,980 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/24 -> 200, latency -> 0.520153
+2024-12-17 13:21:16,262 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 2
+2024-12-17 13:21:16,263 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 3
+2024-12-17 13:21:16,456 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 7
+2024-12-17 13:21:16,578 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 10
+2024-12-17 13:21:16,579 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 11
+2024-12-17 13:21:16,579 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 12
+2024-12-17 13:21:16,874 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 18
+2024-12-17 13:21:17,112 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 23
+2024-12-17 13:21:17,498 - CRAWLER - INFO - Page Complete, data generated for -> 555 products
+2024-12-17 13:21:18,455 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/25 -> 200, latency -> 0.680991
+2024-12-17 13:21:19,890 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 21
+2024-12-17 13:21:19,890 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 22
+2024-12-17 13:21:19,946 - CRAWLER - INFO - Page Complete, data generated for -> 577 products
+2024-12-17 13:21:20,900 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/26 -> 200, latency -> 0.722025
+2024-12-17 13:21:21,552 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 8
+2024-12-17 13:21:22,513 - CRAWLER - INFO - Page Complete, data generated for -> 600 products
+2024-12-17 13:21:23,309 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/27 -> 200, latency -> 0.578621
+2024-12-17 13:21:23,927 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 4
+2024-12-17 13:21:24,025 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 7
+2024-12-17 13:21:24,273 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 12
+2024-12-17 13:21:25,054 - CRAWLER - INFO - Page Complete, data generated for -> 623 products
+2024-12-17 13:21:25,931 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/28 -> 200, latency -> 0.666266
+2024-12-17 13:21:26,290 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 4
+2024-12-17 13:21:26,366 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 6
+2024-12-17 13:21:26,440 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 8
+2024-12-17 13:21:27,367 - CRAWLER - INFO - Page Complete, data generated for -> 646 products
+2024-12-17 13:21:28,232 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/29 -> 200, latency -> 0.645553
+2024-12-17 13:21:29,708 - CRAWLER - INFO - Page Complete, data generated for -> 670 products
+2024-12-17 13:21:30,511 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/30 -> 200, latency -> 0.56335
+2024-12-17 13:21:32,005 - CRAWLER - INFO - Page Complete, data generated for -> 694 products
+2024-12-17 13:21:32,775 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/31 -> 200, latency -> 0.576361
+2024-12-17 13:21:34,429 - CRAWLER - INFO - Page Complete, data generated for -> 718 products
+2024-12-17 13:21:35,186 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/32 -> 200, latency -> 0.550577
+2024-12-17 13:21:36,830 - CRAWLER - INFO - Page Complete, data generated for -> 742 products
+2024-12-17 13:21:37,587 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/33 -> 200, latency -> 0.567932
+2024-12-17 13:21:39,122 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 22
+2024-12-17 13:21:39,228 - CRAWLER - INFO - Page Complete, data generated for -> 765 products
+2024-12-17 13:21:40,061 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/34 -> 200, latency -> 0.547536
+2024-12-17 13:21:41,852 - CRAWLER - INFO - Page Complete, data generated for -> 789 products
+2024-12-17 13:21:42,664 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/35 -> 200, latency -> 0.599339
+2024-12-17 13:21:44,282 - CRAWLER - INFO - Page Complete, data generated for -> 813 products
+2024-12-17 13:21:45,077 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/36 -> 200, latency -> 0.600393
+2024-12-17 13:21:46,643 - CRAWLER - INFO - Page Complete, data generated for -> 837 products
+2024-12-17 13:21:47,523 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/37 -> 200, latency -> 0.648174
+2024-12-17 13:21:49,365 - CRAWLER - INFO - Page Complete, data generated for -> 861 products
+2024-12-17 13:21:50,244 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/38 -> 200, latency -> 0.638322
+2024-12-17 13:21:51,599 - CRAWLER - INFO - Page Complete, data generated for -> 885 products
+2024-12-17 13:21:52,385 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/39 -> 200, latency -> 0.596036
+2024-12-17 13:21:52,963 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 9
+2024-12-17 13:21:53,273 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 15
+2024-12-17 13:21:53,650 - CRAWLER - INFO - Page Complete, data generated for -> 907 products
+2024-12-17 13:21:54,495 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/40 -> 200, latency -> 0.550681
+2024-12-17 13:21:55,902 - CRAWLER - INFO - Page Complete, data generated for -> 931 products
+2024-12-17 13:21:56,686 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/41 -> 200, latency -> 0.573824
+2024-12-17 13:21:57,889 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 20
+2024-12-17 13:21:58,127 - CRAWLER - INFO - Page Complete, data generated for -> 954 products
+2024-12-17 13:21:58,970 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/42 -> 200, latency -> 0.612063
+2024-12-17 13:21:59,807 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'find' occurred for product index 15
+2024-12-17 13:21:59,808 - CRAWLER - INFO - Page Complete, data generated for -> 969 products
+2024-12-17 13:22:00,693 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/43 -> 200, latency -> 0.639991
+2024-12-17 13:22:02,230 - CRAWLER - INFO - Page Complete, data generated for -> 993 products
+2024-12-17 13:22:03,123 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/44 -> 200, latency -> 0.543965
+2024-12-17 13:22:04,520 - CRAWLER - INFO - Page Complete, data generated for -> 1017 products
+2024-12-17 13:22:05,304 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/45 -> 200, latency -> 0.573456
+2024-12-17 13:22:06,936 - CRAWLER - INFO - Page Complete, data generated for -> 1041 products
+2024-12-17 13:22:07,782 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/46 -> 200, latency -> 0.617791
+2024-12-17 13:22:09,372 - CRAWLER - INFO - Page Complete, data generated for -> 1065 products
+2024-12-17 13:22:10,266 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/47 -> 200, latency -> 0.638901
+2024-12-17 13:22:11,440 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 17
+2024-12-17 13:22:11,733 - CRAWLER - INFO - Page Complete, data generated for -> 1088 products
+2024-12-17 13:22:12,534 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/48 -> 200, latency -> 0.583835
+2024-12-17 13:22:13,590 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 16
+2024-12-17 13:22:13,942 - CRAWLER - INFO - Page Complete, data generated for -> 1111 products
+2024-12-17 13:22:14,826 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/49 -> 200, latency -> 0.640016
+2024-12-17 13:22:15,764 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 14
+2024-12-17 13:22:16,287 - CRAWLER - INFO - Page Complete, data generated for -> 1135 products
+2024-12-17 13:22:17,099 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/50 -> 200, latency -> 0.588986
+2024-12-17 13:22:18,481 - CRAWLER - INFO - Page Complete, data generated for -> 1159 products
+2024-12-17 13:22:19,220 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/51 -> 200, latency -> 0.540348
+2024-12-17 13:22:20,880 - CRAWLER - INFO - Page Complete, data generated for -> 1183 products
+2024-12-17 13:22:21,731 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/52 -> 200, latency -> 0.603875
+2024-12-17 13:22:23,327 - CRAWLER - INFO - Page Complete, data generated for -> 1207 products
+2024-12-17 13:22:24,176 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/53 -> 200, latency -> 0.598687
+2024-12-17 13:22:25,632 - CRAWLER - INFO - Page Complete, data generated for -> 1231 products
+2024-12-17 13:22:26,398 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/54 -> 200, latency -> 0.564403
+2024-12-17 13:22:27,913 - CRAWLER - INFO - Page Complete, data generated for -> 1255 products
+2024-12-17 13:22:28,753 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/55 -> 200, latency -> 0.59437
+2024-12-17 13:22:30,130 - CRAWLER - INFO - Page Complete, data generated for -> 1279 products
+2024-12-17 13:22:30,934 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/56 -> 200, latency -> 0.550058
+2024-12-17 13:22:32,795 - CRAWLER - INFO - Page Complete, data generated for -> 1303 products
+2024-12-17 13:22:33,602 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/57 -> 200, latency -> 0.603025
+2024-12-17 13:22:34,922 - CRAWLER - INFO - Page Complete, data generated for -> 1327 products
+2024-12-17 13:22:35,711 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/58 -> 200, latency -> 0.57836
+2024-12-17 13:22:35,843 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 0
+2024-12-17 13:22:37,404 - CRAWLER - INFO - Page Complete, data generated for -> 1350 products
+2024-12-17 13:22:38,151 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/59 -> 200, latency -> 0.489718
+2024-12-17 13:22:39,575 - CRAWLER - INFO - Page Complete, data generated for -> 1374 products
+2024-12-17 13:22:40,381 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/60 -> 200, latency -> 0.551029
+2024-12-17 13:22:41,877 - CRAWLER - INFO - Page Complete, data generated for -> 1398 products
+2024-12-17 13:22:42,692 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/61 -> 200, latency -> 0.580257
+2024-12-17 13:22:43,825 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 18
+2024-12-17 13:22:44,081 - CRAWLER - INFO - Page Complete, data generated for -> 1421 products
+2024-12-17 13:22:44,862 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/62 -> 200, latency -> 0.568683
+2024-12-17 13:22:45,396 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 7
+2024-12-17 13:22:46,247 - CRAWLER - INFO - Page Complete, data generated for -> 1444 products
+2024-12-17 13:22:46,999 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/63 -> 200, latency -> 0.566746
+2024-12-17 13:22:48,470 - CRAWLER - INFO - Page Complete, data generated for -> 1468 products
+2024-12-17 13:22:49,283 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/64 -> 200, latency -> 0.594812
+2024-12-17 13:22:50,779 - CRAWLER - INFO - Page Complete, data generated for -> 1492 products
+2024-12-17 13:22:51,624 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/65 -> 200, latency -> 0.589235
+2024-12-17 13:22:52,153 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 8
+2024-12-17 13:22:52,351 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 13
+2024-12-17 13:22:52,454 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 16
+2024-12-17 13:22:52,827 - CRAWLER - INFO - Page Complete, data generated for -> 1513 products
+2024-12-17 13:22:53,608 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/66 -> 200, latency -> 0.566202
+2024-12-17 13:22:53,993 - CRAWLER - WARNING - Exception 'NoneType' object has no attribute 'text' occurred for product index 5
+2024-12-17 13:22:54,303 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 12
+2024-12-17 13:22:54,450 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 16
+2024-12-17 13:22:54,875 - CRAWLER - INFO - Page Complete, data generated for -> 1535 products
+2024-12-17 13:22:55,743 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/67 -> 200, latency -> 0.676133
+2024-12-17 13:22:56,446 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 9
+2024-12-17 13:22:57,229 - CRAWLER - INFO - Page Complete, data generated for -> 1558 products
+2024-12-17 13:22:58,027 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/68 -> 200, latency -> 0.5725
+2024-12-17 13:22:58,777 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 11
+2024-12-17 13:22:58,831 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 13
+2024-12-17 13:22:58,977 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 17
+2024-12-17 13:22:59,275 - CRAWLER - INFO - Page Complete, data generated for -> 1579 products
+2024-12-17 13:23:00,110 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/69 -> 200, latency -> 0.587205
+2024-12-17 13:23:01,610 - CRAWLER - INFO - Page Complete, data generated for -> 1603 products
+2024-12-17 13:23:02,341 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/70 -> 200, latency -> 0.535039
+2024-12-17 13:23:03,076 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 11
+2024-12-17 13:23:03,555 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 20
+2024-12-17 13:23:03,715 - CRAWLER - INFO - Page Complete, data generated for -> 1625 products
+2024-12-17 13:23:04,629 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/71 -> 200, latency -> 0.685541
+2024-12-17 13:23:04,823 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 1
+2024-12-17 13:23:04,825 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 2
+2024-12-17 13:23:05,276 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 12
+2024-12-17 13:23:05,535 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 17
+2024-12-17 13:23:05,587 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 19
+2024-12-17 13:23:05,798 - CRAWLER - INFO - Page Complete, data generated for -> 1644 products
+2024-12-17 13:23:06,838 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/72 -> 200, latency -> 0.858198
+2024-12-17 13:23:07,131 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 3
+2024-12-17 13:23:07,451 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 10
+2024-12-17 13:23:08,109 - CRAWLER - INFO - Page Complete, data generated for -> 1666 products
+2024-12-17 13:23:09,072 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/73 -> 200, latency -> 0.78184
+2024-12-17 13:23:09,967 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 11
+2024-12-17 13:23:10,070 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 14
+2024-12-17 13:23:10,071 - CRAWLER - WARNING - Exception 'data-lazy-srcset' occurred for product index 15
+2024-12-17 13:23:10,474 - CRAWLER - INFO - Page Complete, data generated for -> 1687 products
+2024-12-17 13:23:11,222 - CRAWLER - INFO - status_code for url https://dentalstall.com/shop/page/74 -> 200, latency -> 0.55808
+2024-12-17 13:27:37,465 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 13:27:37,465 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 13:27:37,465 - CRAWLER - INFO - Initialising Crawling with page_limit : None
+2024-12-17 13:27:37,465 - CRAWLER - WARNING - Exception '<=' not supported between instances of 'int' and 'NoneType' occurred while crawling page 1
+2024-12-17 13:36:21,032 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 13:36:21,033 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 13:36:21,033 - CRAWLER - INFO - Initialising Crawling with page_limit : None
+2024-12-17 13:36:21,033 - CRAWLER - WARNING - Exception '<=' not supported between instances of 'int' and 'NoneType' occurred while crawling page 1
+2024-12-17 13:36:21,035 - DB - INFO - 0 items saved
+2024-12-17 13:38:19,052 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 13:38:19,052 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 13:38:19,052 - CRAWLER - INFO - Initialising Crawling with page_limit : 0
+2024-12-17 13:38:19,053 - DB - INFO - 0 items saved
+2024-12-17 13:40:32,954 - MAIN - INFO - Starting Crawling Automation
+2024-12-17 13:40:32,955 - CRAWLER - INFO - Crawler Initialised
+2024-12-17 13:40:32,955 - CRAWLER - INFO - Initialising Crawling with page_limit : 0
+2024-12-17 13:40:32,955 - DB - INFO - 0 items saved
+2024-12-17 13:48:39,410 - MAIN - INFO - Starting Crawling Automation

@@ -4,15 +4,15 @@ from time import sleep
 from typing import Optional
 from bs4 import BeautifulSoup
 
-from models.product import Product
-from utils import get_random_user_agent
-from constants import *
-from log_config import get_logger
+from src.models.product import Product
+from src.utils import get_random_user_agent
+from src.constants import *
+from src.log_config import get_logger
 
 logger = get_logger("CRAWLER")
 
 class Crawler:
-    def __init__(self, page_limit: Optional[int] = None, proxy: Optional[str]= None):
+    def __init__(self, page_limit: int = None, proxy: Optional[str]= None):
         self.page_limit = page_limit
         self.proxy_uri = proxy
         self.products = []
@@ -27,12 +27,12 @@ class Crawler:
             Maintain state of the current page crawled
         """
         current_page = 1
+        logger.info(f"Initialising Crawling with page_limit : {self.page_limit}")
         try:
-            while True:
+            while current_page <= self.page_limit:
                 # We do not want to show more products than the user wants to see
-                if self.page_limit and current_page > self.page_limit:
-                    break
                 url = f"https://dentalstall.com/shop/page/{current_page}"
+                logger.info(f"Hitting page:{current_page}, {url}")
                 status, response = self.process_request(url)
                 if status == OK and isinstance(response, requests.Response):
                     self.parse_response(response)

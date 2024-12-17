@@ -1,6 +1,6 @@
 import json
-from crawler import Crawler
-from log_config import get_logger
+from src.crawler import Crawler
+from src.log_config import get_logger
 
 logger = get_logger("DB")
 
