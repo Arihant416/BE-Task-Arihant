@@ -48,13 +48,29 @@ pip install uvicorn
 ```bash
 pip install redis
 
-Setup a redis server on my local system and tried a couple of things.
+# I Setup a redis server on my local system and tried a couple of things.
 ```
 
 10. Design decisions that I've took
-    1.  Segregated models (giving the MVC feel a little, but not exactly)
-    2.  Used Redis for in-memory caching (performance, ease and simple for our use-case)
-    3.  Maintained a custom root logger for the entire journey 
-    4.  Segregated my db logic, notification, logging, utilities, models to keep my code loosely coupled!
-    5.  Created an AbstractCrawler(which is sort of an overkill in our case but still!!)
-    6.  Have not tried to find some other ways to capture data if one out of some product fails to be scraped!! for now.
+    1. Segregated models (giving the MVC feel a little, but not exactly)
+    2. Used Redis for in-memory caching (performance, ease and simple for our use-case)
+    3. Maintained a custom root logger for the entire journey
+    4. Segregated my db logic, notification, logging, utilities, models to keep my code loosely coupled!
+    5. Created an AbstractCrawler(which is sort of an overkill in our case but still!!)
+    6. Have not tried to find some other ways to capture data if one out of some product fails to be scraped!! for now.
+
+For Anyone who wishes to use this automation script!
+Please follow the below steps
+
+1. Set up redis server (Local, EC2, etc)
+2. Clone this repo, and create a python virtual-env to avoid package conflicts on any system. (Commands are shared above)
+3. The entry point is the ```main.py``` file which basically is run using the following command
+
+```bash
+uvicorn main:app --reload --port <<PORT_NO>>
+# All this command does is instructs uvicorn to open up a asgi server to listen to the requests sent on the fastapi's endpoint /crawl
+```
+
+4. You can increase the expiration time for saving data(current time 60 seconds) while setting it on cache.
+
+Thanks!!
