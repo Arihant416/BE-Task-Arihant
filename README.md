@@ -52,9 +52,9 @@ Setup a redis server on my local system and tried a couple of things.
 ```
 
 10. Design decisions that I've took
-    1.  Segregated models (giving the MVC feel a little not exactly)
+    1.  Segregated models (giving the MVC feel a little, but not exactly)
     2.  Used Redis for in-memory caching (performance, ease and simple for our use-case)
     3.  Maintained a custom root logger for the entire journey 
-    4.  Segregated my db logic, notification, logging, utilities, models to keep my code less tightly coupled.
+    4.  Segregated my db logic, notification, logging, utilities, models to keep my code loosely coupled!
     5.  Created an AbstractCrawler(which is sort of an overkill in our case but still!!)
-    6.  Have not tried to find some other ways to capture data if one out of some product fails to be scraped for now.
+    6.  Have not tried to find some other ways to capture data if one out of some product fails to be scraped!! for now.
