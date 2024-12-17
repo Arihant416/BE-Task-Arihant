@@ -75,7 +75,7 @@ class Crawler(AbstractCrawler):
                         img_src=IMAGE_SRC_NOT_FOUND
                     if product_title and product_price and img_src != IMAGE_SRC_NOT_FOUND:
                         self.products_scraped += 1
-                        if not self.is_product_price_updated(product_title, product_price):
+                        if self.is_product_price_updated(product_title, product_price):
                             self.products.append(Product(
                                 product_price=product_price, product_title=product_title, path_to_image=img_src
                             ))

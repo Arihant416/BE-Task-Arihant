@@ -11,10 +11,14 @@ logger = get_logger("DB")
 
 # Could be a sqlite db or other sql or nosql db
 def update_db(file_name: str, products:List[Product]):
-    with open(file=file_name, mode='w') as f:
-        # We are basically dumping all products in a json file for now. That json file is our db.
-        json.dump(jsonable_encoder(products), f, indent=2)
-    logger.info(f"{len(products)} items saved")
+    if products:
+        with open(file=file_name, mode='w') as f:
+            # We are basically dumping all products in a json file for now. That json file is our db.
+            json.dump(jsonable_encoder(products), f, indent=2)
+        logger.info(f"{len(products)} items saved")
+    else:
+        logger.info("No Products to Save")
+    
 
 
 def get_redis_conn():
